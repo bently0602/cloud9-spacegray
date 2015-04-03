@@ -1,0 +1,104 @@
+.ace-spacegray .ace_gutter {
+  background: #2b303b;
+  color: rgb(118,123,133)
+}
+
+.ace-spacegray .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-spacegray {
+  background-color: #2b303b;
+  color: #c0c5ce
+}
+
+.ace-spacegray .ace_cursor,
+.ace-spacegray .ace_keyword.ace_operator {
+  color: #c0c5ce
+}
+
+.ace-spacegray .ace_marker-layer .ace_selection {
+  background: #4f5b66
+}
+
+.ace-spacegray.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #2b303b;
+  border-radius: 2px
+}
+
+.ace-spacegray .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-spacegray .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #65737e
+}
+
+.ace-spacegray .ace_marker-layer .ace_active-line {
+  background: #343d46
+}
+
+.ace-spacegray .ace_gutter-active-line {
+  background-color: #343d46
+}
+
+.ace-spacegray .ace_marker-layer .ace_selected-word {
+  border: 1px solid #4f5b66
+}
+
+.ace-spacegray .ace_fold {
+  background-color: #8fa1b3;
+  border-color: #c0c5ce
+}
+
+.ace-spacegray .ace_keyword,
+.ace-spacegray .ace_meta.ace_selector,
+.ace-spacegray .ace_storage {
+  color: #b48ead
+}
+
+.ace-spacegray .ace_constant,
+.ace-spacegray .ace_constant.ace_numeric,
+.ace-spacegray .ace_entity.ace_other.ace_attribute-name,
+.ace-spacegray .ace_keyword.ace_other.ace_unit {
+  color: #d08770
+}
+
+.ace-spacegray .ace_constant.ace_character.ace_escape,
+.ace-spacegray .ace_string.ace_regexp,
+.ace-spacegray .ace_support.ace_function {
+  color: #96b5b4
+}
+
+.ace-spacegray .ace_support.ace_class {
+  color: #ebcb8b
+}
+
+.ace-spacegray .ace_invalid.ace_illegal {
+  color: #2b303b;
+  background-color: #bf616a
+}
+
+.ace-spacegray .ace_string {
+  color: #a3be8c
+}
+
+.ace-spacegray .ace_comment {
+  color: #65737e
+}
+
+.ace-spacegray .ace_entity.ace_name.ace_tag,
+.ace-spacegray .ace_markup.ace_list,
+.ace-spacegray .ace_variable {
+  color: #bf616a
+}
+
+.ace-spacegray .ace_entity.ace_name.ace_function {
+  color: #8fa1b3
+}
+.ace-spacegray .ace_print-margin {
+    background: rgb(45, 55, 60);
+}
+

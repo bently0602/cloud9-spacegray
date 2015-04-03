@@ -1,0 +1,147 @@
+{
+    "ace": {
+        "@animatedScroll": "true",
+        "@antialiasedfonts": true,
+        "@behavioursEnabled": true,
+        "@cursorStyle": "ace",
+        "@displayIndentGuides": "true",
+        "@fadeFoldWidgets": "true",
+        "@fontFamily": "'Inconsolata', 'Source Code Pro', monospace",
+        "@fontSize": 14,
+        "@highlightActiveLine": "true",
+        "@highlightGutterLine": "true",
+        "@highlightSelectedWord": "true",
+        "@keyboardmode": "default",
+        "@mergeUndoDeltas": "off",
+        "@overwrite": "false",
+        "@printMarginColumn": "80",
+        "@scrollPastEnd": "0.5",
+        "@scrollSpeed": "2",
+        "@selectionStyle": "line",
+        "@showFoldWidgets": "true",
+        "@showGutter": true,
+        "@showInvisibles": false,
+        "@showPrintMargin": "true",
+        "@theme": "ace/theme/spacegray",
+        "@useWrapMode": "false",
+        "@wrapBehavioursEnabled": false,
+        "@wrapToView": "true",
+        "cursorStyle": {
+            "json()": "smooth slim"
+        },
+        "custom-types": {
+            "json()": {
+                "^searchresults": "c9search",
+                "settings": "javascript"
+            }
+        },
+        "statusbar": {
+            "@show": true
+        }
+    },
+    "breakpoints": {
+        "@active": "true"
+    },
+    "build": {
+        "@autobuild": false
+    },
+    "collab": {
+        "@showbubbles": "true"
+    },
+    "config": {
+        "styles.css": {
+            "json()": "@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);\n@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);\n@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);\n\n.ace_tree_cells {\n    background: rgb(23,25,32);\n}\n\n.ace_line {\n    -webkit-font-smoothing: subpixel-antialiased;\n    font-smoothing: subpixel-antialiased;\n}\n\n.editor_tab.empty {\n    background: rgb(23,25,32) !important;\n}\n\n.bar-status > .label {\n    color: #fff !important;\n    background: transparent;\n    font-weight: normal;\n    font-family: 'Open Sans', sans-serif;\n}\n\n.c9-label {\n    font-family: 'Open Sans', sans-serif;\n}\n\n.filetree.ace_tree {\n    font-size: 12px;\n    -webkit-font-smoothing: subpixel-antialiased;\n    font-smoothing: subpixel-antialiased;\n    font-family: 'Open Sans', sans-serif;\n}\n\n.tree-row > .caption {\n    color: #bbb;\n}\n\n.filetree .tree-row.selected {\n    background-color: rgb(32, 36, 46) !important;\n}\n\n.filetree .tree-row.selected  > .caption {}\n\n.filetree .tree-row.hover {\n    background-color: rgb(40, 46, 55) !important;    \n}\n\n.c9-mbar-bcont > div {\n    background-color: rgb(23,25,32) !important;\n}\n\n.filetree > .ace_scrollbar-v {\n    border-right: 0px solid #111 !important;\n}\n\n.filetree > .ace_scrollbar-inner {\n    background: rgb(23,25,32);\n    border-top: 0px solid #111;\n}\n\n.ace-spacegray > .ace_scrollbar-v {\n    border-right: 0px solid red !important;\n}\n.ace-spacegray > .ace_scrollbar-v .ace_scrollbar-inner {\n    background: #2b303b;\n    border-top: 0px solid #111;\n}\n\n.c9-menu-bar .c9-mbar-cont {\n    border-bottom: 1px solid rgb(23,25,32) !important;\n    background: rgb(23,25,32);\n}\n\n.c9-menu-btn  {\n    color: #bbb !important;\n    font-size: 12px;\n    line-height: 12px;\n    font-family: 'Open Sans', sans-serif;\n}\n\n.c9-menu-btnOver {\n    background-color: rgb(32, 36, 46) !important;\n    color: #bbb;\n    border-bottom: 1px solid #fff !important;\n}\n\n.c9-menu-btnDown {\n    background-color: rgb(32, 36, 46) !important;\n    color: #bbb;\n    border-color: rgb(32, 36, 46) !important;\n    border-bottom: 1px solid #fff !important;\n}\n\n.c9-toolbarbutton-glossy {\n    color: #bbb !important;\n}\n\n.panel-bar {\n    border-right: 0px solid #2d2d2d;\n    background: rgb(23,25,32);\n}\n\n.editor_tab .btnsesssioncontainer {\n    border: 1px solid rgb(23,25,32);\n    border-bottom-color: #2b303b !important;\n    box-shadow: none;\n}\n\n.editor_tab .btnsesssioncontainer .inside {\n    background-color: rgb(23,25,32) !important;\n}\n\n\n\n\n.session_btn.curbtn {\n    background: #2b303b !important;\n    background-color: #2b303b !important;\n    border-bottom-color: #2b303b !important;\n}\n\n.session_btn.curbtn .tab_middle, .session_btn.curbtn .tab_middle::after, .session_btn.curbtn .tab_middle::before {\n    background: #2b303b !important;\n    border-bottom-color: #2b303b !important;\n}\n\n.session_btn.focus {\n    margin-top: none !important;\n    padding-top: none !important;\n    height: 29px !important;\n    border-bottom-color: rgb(37, 41, 52) !important;\n}\n\n.focus.session_btn.curbtn .sessiontab_title {\n    font-weight: normal;\n}\n\n.session_btn:not(.curbtn) .tab_middle, .session_btn:not(.curbtn) .tab_middle:after, .session_btn:not(.curbtn) .tab_middle:before {\n    background: rgb(23,25,32) !important;\n}\n\n.dark.session_btn.curbtn .sessiontab_title {\n    color: #bbb !important;  \n}\n\n.dark.session_btn:not(curbtn) .sessiontab_title {\n    color: #bbb !important;  \n}\n\n.sessiontab_title {\n    color: #bbb !important;\n    font-family: 'Open Sans', sans-serif;\n}\n\n.session_btn.curbtn:before {\n    display: none;    \n}\n.session_btn.curbtn:after {\n    display: none;    \n}\n\n.session_btn .tab_middle, .session_btn .tab_shadow {\n    background-image: none;\n}\n\n.session_btn {\n    max-width: none;\n    border-left: 0px solid #1d1d1d;\n    border-right: 0px solid #1d1d1d;\n    border-top: 0px solid #1d1d1d;\n    border-bottom: 0px solid #1d1d1d;\n    margin-top: none !important;\n    padding-top: none !important;\n    height: 29px !important;\n}\n.dark.session_btn.curbtn .tab_middle {\n    margin-top: none !important;\n    padding-top: none !important;\n}\n\n.dark.session_btn.curbtn strong {\n    margin-top: none !important;\n    padding-top: none !important;   \n}\n\n.session_btn .tab_middle:before, .session_btn .tab_middle:after {\n    -webkit-mask: none !important;\n    mask: none !important;\n    display: none;\n}\n\n.session_btn .sessiontab_title {\n    padding: 0px;\n    letter-spacing: initial;\n}\n\n.editor_tab .btnsesssioncontainer .inside {\n    padding: 5px 6px 0 34px;\n}\n\n.session_btn .tab_shadow {\n    display: none;\n}\n\n.has_apf .plus_tab_button {\n    margin: 1px 0 0 30px;\n}\n\n.session_btn.curbtn strong {\n    content: ' ';\n    /*background: none;*/\n}\n.session_btn.curbtn strong:after {\n    content: ' ';\n    /*background: none;*/\n}\n\n.editor_tab .session_page {\n    padding-top: 0px !important;\n    top: 32px;\n}\n\n.ace_folding-enabled > .ace_gutter-cell {\n    padding-right:10px;\n}"
+        }
+    },
+    "debug": {
+        "@autoshow": true,
+        "@pause": 0
+    },
+    "findinfiles": {
+        "@clear": "true",
+        "@consolelaunch": "false",
+        "@fullpath": "false",
+        "@scrolldown": "false"
+    },
+    "format": {
+        "jsbeautify": {
+            "@braces": "end-expand",
+            "@jslinthappy": "false",
+            "@keeparrayindentation": "false",
+            "@preserveempty": "true",
+            "@space_before_conditional": "true",
+            "@unescape_strings": "true"
+        }
+    },
+    "general": {
+        "@animateui": true,
+        "@automerge": "false",
+        "@autosave": "false",
+        "@confirmmerge": "true",
+        "@preview-navigate": false,
+        "@preview-tree": false,
+        "@revealfile": false,
+        "@skin": "flat-light",
+        "@stripws": "false",
+        "@treestyle": "default"
+    },
+    "key-bindings": {
+        "@platform": "auto",
+        "@preset": "default",
+        "json()": []
+    },
+    "language": {
+        "@continuousCompletion": "true",
+        "@enterCompletion": "true",
+        "@hints": "true",
+        "@overrideMultiselectShortcuts": true
+    },
+    "metadata": {
+        "@enabled": "true",
+        "@undolimit": "100"
+    },
+    "openfiles": {
+        "@hidetree": "false",
+        "@show": false
+    },
+    "output": {
+        "@backgroundColor": "#e0e5e7",
+        "@foregroundColor": "#333333",
+        "@keepOutput": "false",
+        "@nosavequestion": "false",
+        "@selectionColor": "#aebabf"
+    },
+    "preview": {
+        "@default": "preview.browser",
+        "@running_app": "false"
+    },
+    "projecttree": {
+        "@hiddenFilePattern": "*.pyc, __pycache__, .*",
+        "@scope": "false",
+        "@showhidden": false
+    },
+    "runconfig": {
+        "@debug": "true",
+        "@saveallbeforerun": "true",
+        "@showruncfglist": "false"
+    },
+    "tabs": {
+        "@asterisk": true,
+        "@show": true,
+        "@title": true
+    },
+    "terminal": {
+        "@antialiasedfonts": false,
+        "@backgroundColor": "#000000",
+        "@blinking": "false",
+        "@fontFamily": "'Inconsolata', 'Source Code Pro', monospace",
+        "@fontsize": "13",
+        "@foregroundColor": "#38ff1e",
+        "@scrollback": "1000",
+        "@selectionColor": "#117cff"
+    },
+    "welcome": {
+        "@first": true,
+        "@switched": true
+    }
+}
