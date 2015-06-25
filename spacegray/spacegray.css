@@ -1,104 +1,279 @@
-.ace-spacegray .ace_gutter {
-  background: #2b303b;
-  color: rgb(118,123,133)
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+.ace_tree_cells {
+    background: rgb(23,25,32);
 }
 
-.ace-spacegray .ace_print-margin {
-  width: 1px;
-  background: #e8e8e8
+.ace_line {
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
 }
 
-.ace-spacegray {
-  background-color: #2b303b;
-  color: #c0c5ce
+.editor_tab.empty {
+    background: rgb(23,25,32) !important;
 }
 
-.ace-spacegray .ace_cursor,
-.ace-spacegray .ace_keyword.ace_operator {
-  color: #c0c5ce
+.bar-status > .label {
+    color: #fff !important;
+    background: transparent;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.ace-spacegray .ace_marker-layer .ace_selection {
-  background: #4f5b66
+.c9-label {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.ace-spacegray.ace_multiselect .ace_selection.ace_start {
-  box-shadow: 0 0 3px 0px #2b303b;
-  border-radius: 2px
+.filetree.ace_tree {
+    font-size: 12px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.ace-spacegray .ace_marker-layer .ace_step {
-  background: rgb(198, 219, 174)
+.tree-row > .caption {
+    color: #bbb;
 }
 
-.ace-spacegray .ace_marker-layer .ace_bracket {
-  margin: -1px 0 0 -1px;
-  border: 1px solid #65737e
+.filetree .tree-row.selected {
+    background-color: rgb(32, 36, 46) !important;
 }
 
-.ace-spacegray .ace_marker-layer .ace_active-line {
-  background: #343d46
+.filetree .tree-row.selected  > .caption {}
+
+.filetree .tree-row.hover {
+    background-color: rgb(40, 46, 55) !important;    
 }
 
-.ace-spacegray .ace_gutter-active-line {
-  background-color: #343d46
+.c9-mbar-bcont > div {
+    background-color: rgb(23,25,32) !important;
 }
 
-.ace-spacegray .ace_marker-layer .ace_selected-word {
-  border: 1px solid #4f5b66
+.filetree > .ace_scrollbar-v {
+    border-right: 0px solid #111 !important;
 }
 
-.ace-spacegray .ace_fold {
-  background-color: #8fa1b3;
-  border-color: #c0c5ce
+.filetree > .ace_scrollbar-inner {
+    background: rgb(23,25,32);
+    border-top: 0px solid #111;
 }
 
-.ace-spacegray .ace_keyword,
-.ace-spacegray .ace_meta.ace_selector,
-.ace-spacegray .ace_storage {
-  color: #b48ead
+.ace-spacegray > .ace_scrollbar-v {
+    border-right: 0px solid red !important;
+}
+.ace-spacegray > .ace_scrollbar-v .ace_scrollbar-inner {
+    background: #2b303b;
+    border-top: 0px solid #111;
 }
 
-.ace-spacegray .ace_constant,
-.ace-spacegray .ace_constant.ace_numeric,
-.ace-spacegray .ace_entity.ace_other.ace_attribute-name,
-.ace-spacegray .ace_keyword.ace_other.ace_unit {
-  color: #d08770
+.c9-menu-bar .c9-mbar-cont {
+    border-bottom: 1px solid rgb(23,25,32) !important;
+    background: rgb(23,25,32);
 }
 
-.ace-spacegray .ace_constant.ace_character.ace_escape,
-.ace-spacegray .ace_string.ace_regexp,
-.ace-spacegray .ace_support.ace_function {
-  color: #96b5b4
+.c9-menu-btn  {
+    color: #bbb !important;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.ace-spacegray .ace_support.ace_class {
-  color: #ebcb8b
+.c9-menu-btnOver {
+    background-color: rgb(32, 36, 46) !important;
+    color: #bbb;
+    border-bottom: 1px solid #fff !important;
 }
 
-.ace-spacegray .ace_invalid.ace_illegal {
-  color: #2b303b;
-  background-color: #bf616a
+.c9-menu-btnDown {
+    background-color: rgb(32, 36, 46) !important;
+    color: #bbb;
+    border-color: rgb(32, 36, 46) !important;
+    border-bottom: 1px solid #fff !important;
 }
 
-.ace-spacegray .ace_string {
-  color: #a3be8c
+.c9-toolbarbutton-glossy {
+    color: #bbb !important;
 }
 
-.ace-spacegray .ace_comment {
-  color: #65737e
+.panel-bar {
+    border-right: 0px solid #2d2d2d;
+    background: rgb(23,25,32);
 }
 
-.ace-spacegray .ace_entity.ace_name.ace_tag,
-.ace-spacegray .ace_markup.ace_list,
-.ace-spacegray .ace_variable {
-  color: #bf616a
+.editor_tab .btnsesssioncontainer {
+    border: 1px solid rgb(23,25,32);
+    border-bottom-color: #2b303b !important;
+    box-shadow: none;
 }
 
-.ace-spacegray .ace_entity.ace_name.ace_function {
-  color: #8fa1b3
-}
-.ace-spacegray .ace_print-margin {
-    background: rgb(45, 55, 60);
+.editor_tab .btnsesssioncontainer .inside {
+    background-color: rgb(23,25,32) !important;
 }
 
+.session_btn.curbtn {
+    background: #2b303b !important;
+    background-color: #2b303b !important;
+    border-bottom-color: #2b303b !important;
+}
+
+.session_btn.curbtn .tab_middle, .session_btn.curbtn .tab_middle::after, .session_btn.curbtn .tab_middle::before {
+    background: #2b303b !important;
+    border-bottom-color: #2b303b !important;
+}
+
+.session_btn.focus {
+    margin-top: none !important;
+    padding-top: none !important;
+    height: 29px !important;
+    border-bottom-color: rgb(37, 41, 52) !important;
+}
+
+.focus.session_btn.curbtn .sessiontab_title {
+    font-weight: normal;
+}
+
+.session_btn:not(.curbtn) .tab_middle, .session_btn:not(.curbtn) .tab_middle:after, .session_btn:not(.curbtn) .tab_middle:before {
+    background: rgb(23,25,32) !important;
+}
+
+.dark.session_btn.curbtn .sessiontab_title {
+    color: #bbb !important;  
+}
+
+.dark.session_btn:not(curbtn) .sessiontab_title {
+    color: #bbb !important;  
+}
+
+.sessiontab_title {
+    color: #bbb !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.session_btn.curbtn:before {
+    display: none;    
+}
+.session_btn.curbtn:after {
+    display: none;    
+}
+
+.session_btn .tab_middle, .session_btn .tab_shadow {
+    background-image: none;
+}
+
+.session_btn {
+    max-width: none;
+    border-left: 0px solid #1d1d1d;
+    border-right: 0px solid #1d1d1d;
+    border-top: 0px solid #1d1d1d;
+    border-bottom: 0px solid #1d1d1d;
+    margin-top: none !important;
+    padding-top: none !important;
+    height: 29px !important;
+}
+
+.dark.session_btn.curbtn .tab_middle {
+    margin-top: none !important;
+    padding-top: none !important;
+}
+
+.dark.session_btn.curbtn strong {
+    margin-top: none !important;
+    padding-top: none !important;   
+}
+
+.session_btn .tab_middle:before, .session_btn .tab_middle:after {
+    -webkit-mask: none !important;
+    mask: none !important;
+    display: none;
+}
+
+.session_btn .sessiontab_title {
+    padding: 0px;
+    letter-spacing: initial;
+}
+
+.editor_tab .btnsesssioncontainer .inside {
+    padding: 5px 6px 0 34px;
+}
+
+.session_btn .tab_shadow {
+    display: none;
+}
+
+.has_apf .plus_tab_button {
+    margin: 1px 0 0 30px;
+}
+
+.session_btn.curbtn strong {
+    content: ' ';
+    /*background: none;*/
+}
+.session_btn.curbtn strong:after {
+    content: ' ';
+    /*background: none;*/
+}
+
+.editor_tab .session_page {
+    padding-top: 0px !important;
+    top: 32px;
+}
+
+.ace_folding-enabled > .ace_gutter-cell {
+    padding-right:10px;
+}
+
+.panelsbar {
+    background: rgb(23,25,32) !important;
+    border-color: rgb(23,25,32) !important;
+    box-shadow: none !important;
+}
+
+.panelsbutton {
+    color: #bbb !important;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-shadow: none;
+    background: rgb(23,25,32) !important;
+    margin-top: -2px;
+    border-color: rgb(23,25,32) !important;
+}
+
+.panelsbuttonDown {
+    color: #bbb !important;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-shadow: none;
+    background: #2b303b !important;
+    text-decoration: underline;
+    border-color: #2b303b !important;
+}
+
+.bar-preferences .navigation {
+    background: #fbfbfb;
+}
+
+.bar-preferences .navigation .level1 {
+    background: #fbfbfb !important;
+}
+
+.debugcontainer .scroller {
+    background: #fbfbfb !important;
+}
+
+.right .panel-bar {
+    border-color: rgb(23,25,32) !important;
+}
+
+.message.empty {
+    color: #efefef;
+}
+
+body {
+    background: rgb(23,25,32) !important;
+}
