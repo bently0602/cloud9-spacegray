@@ -19,7 +19,7 @@ user.settings
 3. Replace your Cloud9 user.settings with the one in this repo or merge your
 personal one with it.
 
-#### Uinstalling
+#### Uninstalling
 
 1. CD to cloud9-spacegray directory
 2. run ```node uninstall.js /path/to/cloud9/root(core)```
